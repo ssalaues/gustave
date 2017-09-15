@@ -1,11 +1,14 @@
 {
-  "name": "startbootstrap-sb-admin-2",
-  "homepage": "http://startbootstrap.com/template-overviews/sb-admin-2/",
-  "version": "3.3.7+1",
+  "name": "gustave",
+  "homepage": "https://github.com/ssalaues/gustave",
+  "version": "0.1",
   "authors": [
-    "David Miller"
+    "Salim Salaues",
+    "Yann",
+    "Pauline",
+    "Edouard"
   ],
-  "description": "A free, open source, Bootstrap admin theme created by Start Bootstrap",
+  "description": "Friendly road trip assistant",
   "keywords": [
     "bootstrap",
     "theme"

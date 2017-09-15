@@ -5,7 +5,14 @@
  */
 body {
   background-color: #f8f8f8;
+  height: 100%;
+  background-image: url(../../img/background.svg);
+  background-size:100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size:cover;
 }
+
 #wrapper {
   width: 100%;
 }
