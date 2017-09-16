@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
-  /* background-color: #f8f8f8; */
+  background-color: #5A71F4;
   height: 100%;
   background-image: url(../../img/background.svg);
   background-size:100% 100%;
@@ -24,8 +24,6 @@ body {
 .logo-min {
   display: block;
   margin: 0 auto;
-  width: 182px;
-  height: 209px;
   object-fit: contain;
 }
 
@@ -43,17 +41,17 @@ body {
   background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
   background-image: -o-linear-gradient(top, #ffffff, #ffffff);
   background-image: linear-gradient(to bottom, #ffffff, #ffffff);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
+  -webkit-border-radius: 36;
+  -moz-border-radius: 36;
+  border-radius: 36px;
   -webkit-box-shadow: 0px 1px 20px #666666;
   -moz-box-shadow: 0px 1px 20px #666666;
   box-shadow: 0px 1px 20px #666666;
   font-family: Arial;
   color: #38c4b8;
-  font-size: 28px;
+  font-size: 20px;
   background: #ffffff;
-  padding: 10px 20px 10px 20px;
+  padding: 20px 50px 20px 50px;
   border: solid #00b140 4px;
   text-decoration: none;
 
