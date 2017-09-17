@@ -18,6 +18,14 @@ body {
   border-color: #FFFFFF;
 }
 
+.panel-body {
+  text-align: center;
+}
+
+.navbar-toggle {
+  float: left;
+}
+
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
@@ -35,10 +43,13 @@ body {
 }
 
 .logo-min {
-  display: block;
+  /* display: block;
   margin: 0 auto;
-  object-fit: contain;
+  object-fit: contain; */
   padding-bottom: 50px;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
 }
 
 .login-g {
