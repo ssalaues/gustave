@@ -2,11 +2,11 @@
 The smart ride share assistant that makes ride shares and commutes more enjoyable!
 
 ## Live preview
+test:
+![alt text][home]
+[home]: https://raw.githubusercontent.com/ssalaues/gustave/master/img/homepage.PNG "Logo Title Text 2"
 
-[logo]: https://github.com/ssalaues/gustave/blob/master/img/homepage.PNG?raw=true "Logo Title Text 2"
-
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/sb-admin-2/)
+## Get Started
 * Clone the repo: `git clone https://github.com/ssalaues/gustave.git`
 * Fork the repo
 
