@@ -1,9 +1,9 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [SB Admin 2](http://startbootstrap.com/template-overviews/sb-admin-2/)
-[![CDNJS](https://img.shields.io/cdnjs/v/startbootstrap-sb-admin-2.svg)](https://cdnjs.com/libraries/startbootstrap-sb-admin-2)
+# [Gustav]
+The smart ride share assistant that makes ride shares and commutes more enjoyable!
 
-[SB Admin 2](http://startbootstrap.com/template-overviews/sb-admin-2/) is an open source, admin dashboard template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+## Live preview
 
-## Getting Started
+[logo]: https://github.com/ssalaues/gustave/raw/master/img/homepage.png "Logo Title Text 2"
 
 To begin using this template, choose one of the following options to get started:
 * [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/sb-admin-2/)
