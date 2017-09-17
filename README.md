@@ -2,10 +2,11 @@
 The smart ride share assistant that makes ride shares and commutes more enjoyable!
 
 ## Live preview
-test:
-![alt text][home]
-[home]: https://raw.githubusercontent.com/ssalaues/gustave/master/img/homepage.PNG "Logo Title Text 2"
+To see a live demo:
+https://invis.io/46DITWNF3#/253761633_Homepage_Copy
 
+Home Page Preview:
+![Home Page Preview](https://raw.githubusercontent.com/ssalaues/gustave/master/img/homepage.PNG)
 ## Get Started
 * Clone the repo: `git clone https://github.com/ssalaues/gustave.git`
 * Fork the repo
