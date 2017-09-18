@@ -1,0 +1,108 @@
+
+/* Request JSONP directly from the USGS */
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      var map;
+        //gets the repo
+        var lang = ["C", "JavaScript", "PHP", "TeX"];
+/*        var li = 0;
+        function getRepo(src){
+            for (i = 0; i < 30; i++){
+                getLang(src[i].repo.url);
+            }
+        }
+        // grabs lang
+        function langCallback(response){
+            lang[li] = response.data;
+            li++;
+            console.log(response.data.language);
+        }
+        function getLang(link){
+            var repo  = link + "?callback=langCallback";
+            repo = document.createElement('script');
+            repo.src = link + "?callback=langCallback";
+            document.getElementsByTagName('head')[0].appendChild(repo);
+            return (repo);
+        }
+        function actor(response){
+            var meta = response.meta;
+            var data = response.data;
+            console.log(meta);
+            console.log(data);
+            getRepo(data);
+        }
+                 // Create a script tag and set the USGS URL as the source.
+		var script = document.createElement('script');
+        		//Grabbing from github api
+        script.src = 'https://api.github.com/events?callback=actor';
+		//script.src = 'http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp';
+		document.getElementsByTagName('head')[0].appendChild(script);
+        console.log(lang);
+        */
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 2,
+          center: new google.maps.LatLng(2.8,-187.3),
+          mapTypeId: 'terrain'
+        });
+
+        // feature.getProperty('mag') is getting mag property of json pull
+        map.data.setStyle(function(feature) {
+          return {
+            icon: getCircle(lang)
+          };
+        });
+      }
+
+      function getCircle(language) {
+          var color = getColor(language);
+          if (!color)
+            color = "blue";
+        console.log(color);
+        return {
+          path: google.maps.SymbolPath.CIRCLE,
+          fillColor: color,
+          fillOpacity: .2,
+          scale: Math.pow(2, 1) / 2,
+          strokeColor: 'white',
+          strokeWeight: .5
+        };
+      }
+
+      // Set color based on lang
+      function getColor(language) {
+          var color = document.createElement('script');
+          color.src = 'colors.json'
+          console.log(color);
+      	return (color[language]);
+      }
+
+      function eqfeed_callback(results) {
+      	console.log(results);
+        map.data.addGeoJson(results);
+      }
+
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmr0OdznmwX2l4iuxwX1RHOmcDLbUrJPM&callback=initMap">
+    </script>
+  </body>
+</html>
