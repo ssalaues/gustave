@@ -1,4 +1,6 @@
-# Code samples for "Neural Networks and Deep Learning"
+# Samples used for testing Gustav Neural Network
+
+## Code samples for "Neural Networks and Deep Learning"
 
 This repository contains code samples for my book on ["Neural Networks
 and Deep Learning"](http://neuralnetworksanddeeplearning.com).
